@@ -1,0 +1,72 @@
+@media screen and (max-width: 991px) {
+	.topbar-left li a span{
+		display: none;
+	}
+	.custom-footer-margin{
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.background-academy{
+		margin-top: 50px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.aboutUsImag{
+		margin-left: 35%;
+		margin-top: 100px;
+    	margin-bottom: -50px;
+	}
+	.sm-pr-1{
+		padding-right: 15px !important;
+	}
+	.testimonial-img{
+		margin-bottom: -10% !important;
+	}
+	.cta-email {
+		width: 60% !important;
+	}
+	.custom-footer-sm-margin{
+		margin-top: 8%;
+	}
+	.custom-flex{
+		justify-content: center !important;
+		margin-top: 5% !important;
+	}
+}
+@media screen and (max-width: 575px) {
+	.aboutUsImag{
+		margin-left: 25%;
+	}
+	.owl-carousel .owl-nav button.owl-next{
+		right: 5%;
+		top: 30%;
+		border: 2px solid #fff;
+		color: #fff;
+		border-radius: 5%;
+		padding: 10px !important;
+		font-size: 20px !important;
+		margin:0px; 
+	}
+	.owl-carousel .owl-nav button.owl-prev{
+		left: 5%;
+		top: 30%;
+		border: 2px solid #fff;
+		color: #fff;
+		border-radius: 5%;
+		padding: 10px !important;
+		font-size: 20px !important;
+		margin:0px; 
+	}
+	.custom-xs-center{
+		text-align: center !important;
+	}
+	.custom-galary-padding>div{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.custom-galary-padding div a img{
+		max-width: 100% !important;
+	}
+}

@@ -1,0 +1,289 @@
+/*-----------------------------------------------------
+-------------------------------------------------------
+Project Name: Educafe LMS;
+Project Director: Mr. X;
+Client Name: LEDP-2020-WD-D25;
+Project Start Date: 11-04-21;
+Project Submission Date: ;
+Total Page: 7;
+-------------------------------------------------------
+-------------------------------------------------------
+			About Page 
+	-----------------------
+	1.About us
+	2.Principals massage
+	3.Facts
+	4.Our Teachers
+	5.CTA
+	6.Footer
+	------------------------
+
+
+*********************************************************/
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/********************************************************************
+					Base Css Start
+*********************************************************************/
+
+/********************************************************************
+					Base Css End
+*********************************************************************/
+/********************************************************************
+					Common Css Start
+*********************************************************************/
+.primary-color{
+	color: #56ab2f !important;
+}
+.primary-bg{
+	background: #56ab2f !important;
+}
+.secondary-color{
+	color: #000022 !important;
+}
+.secondary-bg{
+	background: #000022 !important;
+}
+.btn-primary-bg{
+	background: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #fff;
+}
+.btn-primary-bg:hover{
+	background: transparent !important;
+	border: 1px solid #56ab2f !important;
+	color: #000;
+}
+.btn-outline-primary-bg{
+	background: transparent;
+	border: 1px solid #56ab2f !important;
+	color: #000;
+}
+.btn-outline-primary-bg:hover{
+	background: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #fff;
+}
+.word-space-10{
+	word-spacing: 15px !important;
+}
+.card-hover:hover{
+	border-color: #56ab2f !important;
+}
+/********************************************************************
+					Common Css End
+*********************************************************************/
+/********************************************************************
+					Owl Carousel CSS Start
+*********************************************************************/
+/*.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    font-size: 45px;
+   	color: #000022;
+   	top: 40%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+	color: #56ab2f !important;
+	background-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+	background-color: transparent;
+	outline: none; 
+}*/
+/********************************************************************
+					Owl Carousel CSS End
+*********************************************************************/
+/********************************************************************
+					TopBar Css Start
+*********************************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+	width: 100%;
+}
+.topbar-left li{
+margin-left: 20px; 
+}
+.topbar-left li:first-child{
+	margin: 0;
+}
+.topbar-right li:first-child::after{
+content: "|";
+color: #000022!important;
+padding-left: 10px;
+padding-right: 10px;
+}
+.font-size-10{
+	font-size: 10px;
+	margin-left: -10px !important;
+}
+/********************************************************************
+					TopBar Css End
+*********************************************************************/
+/********************************************************************
+					Header Css Start
+*********************************************************************/
+.nav-link{
+	font-weight: bold !important;
+}
+.custom-light{
+	background-color: rgba(255,255,255, .5);
+}
+/********************************************************************
+					Header Css End
+*********************************************************************/
+/********************************************************************
+					Slider Css Start
+*********************************************************************/
+.carousel-position-absolute{
+	position: absolute;
+	left: 55%;
+	top: 45%;
+
+}
+.font-size-14{
+	font-size: 14px !important;
+}
+/********************************************************************
+					Slider Css End
+*********************************************************************/
+
+/********************************************************************
+					AboutUS Css Start
+*********************************************************************/
+.background-academy{
+	background: url('../img/academy/academy.png');
+	/*background-size: cover;*/
+}
+.aboutUsImag{
+	margin-top: 50px;
+    margin-bottom: -25px;
+    margin-left: -80px;
+}
+/********************************************************************
+					AboutUS Css End
+*********************************************************************/
+
+/********************************************************************
+					Course Css Start
+*********************************************************************/
+.line{
+	width: 120px;
+	border-bottom: 2px solid #cfcfcf;
+	position: relative;
+	left: 30%;
+}
+/********************************************************************
+					Course Css End
+*********************************************************************/
+
+/********************************************************************
+					Facts Css Start
+*********************************************************************/
+.facts{
+	background-image: url('../img/facts/facts.png');
+	background-attachment: fixed;
+}
+/********************************************************************
+					Facts Css End
+*********************************************************************/
+
+/********************************************************************
+					RecentNews Css Start
+*********************************************************************/
+
+/********************************************************************
+					RecentNews Css End
+*********************************************************************/
+
+/********************************************************************
+					Testimonial Css Start
+*********************************************************************/
+.testimonial{
+	background: url('../img/testimonial/bg.png');
+}
+.testimonial-img{
+	max-height: 120px !important;
+	max-width: 120px !important;
+	margin: 0px auto;
+	margin-bottom: -15%;
+}
+.testimonial-border{
+	border: 30px solid transparent;
+	border-image: url('../img/testimonial/border-2.png') 50% round;
+	border-top: none;
+}
+/********************************************************************
+					Testimonial Css End
+*********************************************************************/
+
+/********************************************************************
+					CTA Css Start
+*********************************************************************/
+.cta-email{
+	width: 30%;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.cta-button{
+	padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -3px;
+    outline: 2px solid rgba(255,255,255,.5);
+}
+::placeholder{
+	color: #fff;
+}
+.footer{
+	background: #1e1d1d !important;
+}
+.footer-bottom{
+	border-top: 2px solid #56ab2f !important;
+}
+
+.footer-icon li{
+	height: 40px;
+	width: 40px;
+	line-height: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.footer-icon li:first-child{
+	margin-left: 0px;
+}
+.footer-icon li a{
+	line-height: 38px;
+    padding: 10px;
+    color: #fff;
+}
+.footer-icon li a:hover{
+	color: #56ab2f;
+}
+/********************************************************************
+					CTA Css End
+*********************************************************************/
+
+/********************************************************************
+					Footer Css Start
+*********************************************************************/
+
+/********************************************************************
+					Footer Css End
+*********************************************************************/
